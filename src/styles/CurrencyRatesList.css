@@ -1,0 +1,31 @@
+.currency-rates-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 1 10%;
+	text-align: center;
+	margin: 20px 1.25% 0 1.25%;
+	border: 1px solid black;
+	background: #E0FFFF;
+}
+
+.error {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 860px) {
+	.card {
+		flex: 0 1 22.5%;
+	}
+}
+
+@media (max-width: 520px) {
+	.card {
+		flex: 0 1 47.5%;
+	}
+}
+

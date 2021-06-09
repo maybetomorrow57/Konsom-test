@@ -1,0 +1,31 @@
+.currency-converter h2{
+	text-align: center;
+}
+
+.currency-converter p{
+	font-size: 20px;
+	color: #008000;
+	font-weight: bold;
+}
+
+.currency-converter input {
+	width: 203px;
+}
+
+.error {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+@media (max-width: 860px) {
+	.currency-converter input, .currency-converter select, .currency-converter button {
+		display: block;
+	}
+}
+
+@media (max-width: 520px) {
+	.currency-converter h2 {
+		font-size: 1.25em;
+	}
+}

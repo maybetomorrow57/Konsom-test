@@ -1,0 +1,13 @@
+.currency-rates h2 {
+	text-align: center;
+}
+
+@media (max-width: 520px) {
+	.currency-rates h2 {
+	font-size: 1.25em;
+	}
+
+	.currency-rates select, .currency-rates button {
+	display: block;
+	}
+}
