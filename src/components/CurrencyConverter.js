@@ -35,7 +35,7 @@ const CurrencyConverter = () => {
 		fetch(`https://openexchangerates.org/api/latest.json?app_id=289b166bf9be4727882605312b5cd7f0&base=${currencyIn}`)
 		.then(res => res.json())
 		.then(
-			result => setCurrencyInValue(result.rates.[currencyOut]), 
+			result => setCurrencyInValue(result.rates[currencyOut]), 
 			error => setError(error)
 		);
 	};
